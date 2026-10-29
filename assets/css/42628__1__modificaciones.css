@@ -1,0 +1,133 @@
+/****   HEAD   ****/
+.navbar-collapse {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(191,3,16,1) 100%);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.alert-primary {
+    color: #fff;
+    background-color: #bf080e;
+    border-color: #bf080e;
+    font-weight: 600;
+}
+.bs-nav {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(191,3,16,1) 100%);
+}
+.bs-header-topnav {
+    color: #fff;
+}
+.bs-header-topnav {
+    background: #000000;
+}
+.btn-primary {
+    background-color: #bf080e;
+}
+[data-bs="search"] .input-group {
+    border: 1px #000000 solid;
+    background: rgb(210 210 210 / 15%);
+    border-radius: 50rem;
+}
+.bs-menu-lv1:hover, .show > .bs-menu-lv1:hover {
+    background: #be0811;
+    color: #ffffff;
+}
+
+.bs-menu-lv1 + .dropdown-menu {
+    background: #ffffff;
+}
+.bs-menu-lv2 {
+    color: #000;
+}
+.bs-menu-lv2:hover {
+    background: #fff;
+    color: #bf080d;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primaty:active, .btn-primary:disabled {
+    background-color: #960307;
+    opacity: .8;
+}
+.text-truncate {
+    white-space: normal;
+}
+.bs-header-topnav a:hover {
+    color: #be080e;
+}
+
+/****   BODY   ****/
+.bs-home-hr {
+    background-color: #bf0310;
+}
+.bs-siguenos .bs-social-media a {
+    background-color: #bf080d;
+}
+.bs-siguenos .bs-social-media a:hover {
+    color: #fff;
+    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(191,3,16,1) 100%);
+}
+.bs-product-final-price {
+    font-weight: bold;
+    color: #000000;
+}
+.btn-secondary {
+    background-color: #000000;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary:disabled, .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled):focus {
+    background-color: #212529;
+    opacity: .8;
+    
+}
+.noUi-connect {
+    height: 50%;
+    background-color: #bf080d !important;
+}
+button.btn.btn-link.p-0 {
+    color: black;
+}
+button.btn.btn-link.p-0:hover {
+    color: #bf080d;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #bf080d;
+    background-color: #bf080d;
+}
+.btn-success {
+    color: #fff;
+    background-color: #bd080f;
+    border-color: #bd080f;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+.bs-stock {
+    background: #bf080d;
+}
+
+/****   FOOTER  ****/
+.bs-footer {
+    background: #000000;
+}
+.bs-footer aside {
+    padding: 0.75rem;
+    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(191,3,16,1) 100%);
+}
+.bs-footer-title h5 {
+    color: #bf080e;
+}
+
+@media screen and (min-width: 992px){
+.navbar-expand-lg .bs-menu-lv1 + .dropdown-menu {
+    margin-top: 1px;
+    border-color: #000000;
+}
+}
+
+@media screen and (max-width: 992px){
+.btn-facebook, .btn-whatsapp {
+    background: #bf080d;
+    border-radius: 50%;
+}
+}
